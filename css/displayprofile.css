@@ -1,0 +1,65 @@
+html {
+  height: 100%;
+  background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
+}
+
+.profile-card {
+  position: absolute;
+  /* width: 40%; */
+  width: 40vw;
+  /* top: 20vh; */
+  top: calc(5vh + 130px);
+  /* left: 29vw; */
+  left: calc(50vw - ((40vw + 5rem)/2));
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2.5rem 0;
+  padding-left: 2.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 25px;
+  border-radius: 15px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0, 0.15);
+}
+
+.profile-heading {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.8);
+  top: 5vh;
+  /* left: 43vw; */
+  left: calc(50vw - (200px/2));
+  margin: 0 auto;
+  font-family: "Lato", sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.profile-contents {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+}
+
+.profile-contents td {
+  padding: 5px 15px;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
+  color: white;
+  padding: 20px 40px;
+  /* margin: 0 160px; */
+  margin: 0 calc(20vw - (200px/2));
+  margin-top: 15px;
+  border: none;
+  width: 200px;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  transition: .5s;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+}
+
+input[type=submit]:hover {
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  background-color: #45a049;
+}

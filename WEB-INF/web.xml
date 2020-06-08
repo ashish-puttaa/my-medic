@@ -1,0 +1,23 @@
+<web-app>
+
+  <servlet>
+    <servlet-name>RegisterPatientServlet</servlet-name>
+    <servlet-class>RegisterPatientServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>RegisterPatientServlet</servlet-name>
+    <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+
+  <!-- <servlet>
+    <servlet-name>ListDoctorsServlet</servlet-name>
+    <servlet-class>ListDoctorsServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ListDoctorsServlet</servlet-name>
+    <url-pattern>/ListDoctors</url-pattern>
+  </servlet-mapping> -->
+
+</web-app>

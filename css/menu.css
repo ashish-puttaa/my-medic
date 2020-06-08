@@ -1,0 +1,173 @@
+html {
+  margin: 0 0;
+  padding: 0 0;
+  background-color: #F4F7F9;
+  width: 100%;
+}
+
+.body {
+  height: 100%;
+  margin: 0;
+}
+
+.table-card {
+  height: auto;
+  display: inline-table;
+  /* width: 50%; */
+  position: relative;
+  margin-bottom: 0;
+  /* margin: 10em 12vw; */
+  margin: 12em calc(40vw - (610px/2));
+}
+
+.heading {
+  float: left;
+  width: 99%;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 10px;
+  position: absolute;
+  top: 30px;
+}
+
+.table-card table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  /* width: 520px; */
+  table-layout: fixed;
+}
+
+.table-card .table-heading {
+  /* background-color: #45a049; */
+  /* background-color: #4CAF50; */
+  background-color: #55c57a;
+  text-transform: uppercase;
+  color: white;
+}
+
+.table-card table th {
+  cursor: pointer;
+}
+
+.table-card table td, th {
+  padding: 15px;
+  padding-left: 35px;
+  text-align: justify;
+  font-family: 'Lato', sans-serif;
+  max-width: 100%;
+  white-space: nowrap;
+}
+
+.table-card .table-record {
+  background-color: white;
+}
+
+.table-card .table-record:hover {
+  background-color: #EDF2F4;
+  /* background-color: black; */
+}
+
+.datetime {
+  position: absolute;
+  margin-top: 30px;
+  width: 500px;
+  text-align: center;
+  margin-left: 170px;
+}
+
+.datetime label {
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+}
+
+.back input[type=submit] {
+  color: white;
+  padding: 20px 40px;
+  border: none;
+  width: 200px;
+  border-radius: 8px;
+  cursor: pointer;
+  position: relative;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #606060;
+  transition: .5s;
+  margin: 0 0 10px 0;
+}
+
+.back input[type=submit]:hover {
+  /* width: 101%; */
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  background-color: #4CAF50;
+}
+
+.back {
+  position: absolute;
+  margin-top: 175px;
+  /* color: black; */
+  margin: 0 0;
+  /* top: 180px; */
+  top: 240px;
+  left: 80vw;
+}
+
+td button {
+  width: 100%;
+  color: white;
+  padding: 3px 5px;
+  margin: 0 0 5px 0;
+  border: none;
+  width: 70px;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  transition: .5s;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #606060;
+  transition: .5s;
+}
+
+td button[name=remove]:hover {
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  /* background-color: #4CAF50; */
+  background-color: #EF394E;
+}
+
+td button[name=update]:hover {
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  background-color: #63A1D3;
+}
+
+td button[name=book]:hover {
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  /* background-color: #E89830; */
+  background-color: #EFB364;
+  /* background-color: white;
+  color: black;
+  border: 2px solid #55c57a; */
+}
+
+td #reject:hover {
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  /* background-color: #4CAF50; */
+  background-color: #EF394E;
+}
+
+td #accept:hover {
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  background-color: #63A1D3;
+}
+
+.search-box {
+  margin-bottom: 10px;
+  /* float: right; */
+}
+
+.search-box form {
+  /* float: right; */
+  display: inline-block;
+  /* margin-bottom: 10px; */
+  /* margin: 0 5px; */
+}

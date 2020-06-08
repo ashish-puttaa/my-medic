@@ -1,0 +1,60 @@
+html {
+  margin: 0 0;
+  padding: 0 0;
+  background-color: #F4F7F9;
+  width: 100%;
+}
+
+.login-card {
+  margin: 0 0;
+  /* padding: 9.5rem 28rem; */
+  width: 34vw;
+  padding: 9.5rem 32vw;
+  background-color: #F4F7F9;
+  padding-bottom: 0;
+}
+
+form {
+  width: auto;
+}
+
+.heading {
+  position: relative;
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  font-family: 'Lato', sans-serif;
+  color: #444444;
+}
+
+.login-card input[type=email], input[type=password], select {
+  width: 100%;
+  padding: 10px 40px;
+  margin: 8px 0;
+  display: block;
+  block-size: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.login-card input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px 40px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  transition: .5s;
+}
+
+.login-card input[type=submit]:hover {
+  /* width: 101%; */
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  background-color: #45a049;
+}

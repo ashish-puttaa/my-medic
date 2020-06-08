@@ -1,0 +1,121 @@
+html {
+  margin: 0 0;
+  padding: 0 0;
+  background-color: #F4F7F9;
+  width: 100%;
+}
+
+.body {
+  width: 100%;
+  height: 100%;
+}
+
+.table-card {
+  height: auto;
+  width: 50%;
+  /* margin: 1em 25em; */
+  margin: 1em 23.5vw;
+  /* position: relative; */
+  position: absolute;
+}
+
+.heading {
+  position: relative;
+  float: left;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 10px;
+  /* position: absolute; */
+}
+
+.table-card table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 500px;
+  table-layout: auto;
+}
+
+.table-card .table-heading {
+  /* background-color: #45a049; */
+  /* background-color: #4CAF50; */
+  background-color: #55c57a;
+  text-transform: uppercase;
+  color: white;
+}
+
+.table-card table td, th {
+  padding: 15px;
+  padding-left: 35px;
+  text-align: justify;
+  font-family: 'Lato', sans-serif;
+}
+
+.table-card .table-record {
+  background-color: white;
+}
+
+.table-card .table-record:hover {
+  background-color: #E0E0E0;
+  /* background-color: black; */
+}
+
+.datetime {
+  position: absolute;
+  margin-top: 130px;
+  /* width: 500px; */
+  margin-left: calc(25vw - (500px/2));
+  text-align: center;
+}
+
+.datetime label {
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px 40px;
+  margin: 0px 145px;
+  border: none;
+  width: 230px;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  transition: .5s;
+  margin-bottom: 15px;
+}
+
+input[type=submit]:hover {
+  /* width: 101%; */
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  background-color: #45a049;
+  /* background-color: white; */
+}
+
+input[type=datetime-local] {
+  width: auto;
+  padding: 10px 20px;
+  margin: 0 130px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  block-size: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.back {
+  position: absolute;
+  margin-top: 300px;
+  /* color: black; */
+}
+
+.back input[type=submit] {
+  margin: 0 calc(25vw - (210px/2));
+}
